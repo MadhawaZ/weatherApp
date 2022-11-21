@@ -1,0 +1,32 @@
+<div class="row" *ngIf="weatherService.weatherData">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>{{weatherService.weatherData.name}}
+          <img src="http://openweathermap.org/img/wn/{{weatherService.weatherData.weather[0].icon}}@2x.png"
+               height="100px" width="100px"></h1>
+        <h1>{{weatherService.weatherData.weather[0].main}}</h1>
+        <h1>{{weatherService.weatherData.weather[0].description}}</h1>
+      </div>
+      <div class="col-md-6">
+        <img width="300" height="300" src="assets/images/{{weatherService.weatherData.weather[0].description}}.png">
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 border text-center">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Temperature</h1>
+        <h2>{{weatherService.weatherData.main.temp}} °F</h2>
+      </div>
+      <div class="col-md-6">
+        <h1>Feels Like</h1>
+        <h2>{{weatherService.weatherData.main.feels_like}} °F</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 border text-center p-3">
+    <h1>Humidity - {{weatherService.weatherData.main.humidity}}</h1>
+    <h1>Wind Speed - {{weatherService.weatherData.wind.speed}}</h1>
+  </div>
+</div>

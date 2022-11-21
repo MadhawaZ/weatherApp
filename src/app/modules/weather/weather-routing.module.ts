@@ -1,10 +1,11 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from "./components/home/home.component";
+import {CurrentWeatherComponent} from "./components/current-weather/current-weather.component";
 import {SearchLocationComponent} from "./components/search-location/search-location.component";
 
 const routes: Routes = [{
-  path: '',
+  path: 'search',
   component: HomeComponent
 }];
 
@@ -16,4 +17,4 @@ const routes: Routes = [{
 export class WeatherRoutingModule {
 }
 
-export const routeParams = [HomeComponent, SearchLocationComponent];
+export const routeParams = [HomeComponent, SearchLocationComponent, CurrentWeatherComponent];
