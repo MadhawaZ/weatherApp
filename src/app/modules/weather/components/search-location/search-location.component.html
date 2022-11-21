@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-4">
+    <label>Your Location</label>
+  </div>
+  <div class="col-md-4">
+    <input [(ngModel)]="locationQuery"
+           [typeahead]="places"
+           (typeaheadLoading)="searchPlaces()"
+           (typeaheadOnSelect)="setSelectedPlace($event)"
+           [typeaheadOptionsLimit]="5"
+           typeaheadOptionField="display_place"
+           autocomplete="off"
+           class="form-control" name="placeSearch">
+  </div>
+</div>
