@@ -7,6 +7,7 @@ This is an Angular application which will provide you weather data based on the 
 Clone the repo. 
 
 git clone https://github.com/MadhawaZ/weatherApp.git
+
 cd weatherApp
 
 ## Install npm packages
@@ -16,13 +17,17 @@ npm install
 ## Run project
 
 ng start
+
 You can run app in your favorite web browser on this address http://localhost:4200/
 
 ##important
 
 Please go to following link using your web browser 
+
 https://cors-anywhere.herokuapp.com/
+
 Then request permission.
+
 This will allow you to use application in your device. 
 
 ## Running unit tests
