@@ -16,11 +16,11 @@ npm install
 
 ## Run project
 
-ng start
+ng serve
 
 You can run app in your favorite web browser on this address http://localhost:4200/
 
-##important
+## Important
 
 Please go to following link using your web browser 
 
