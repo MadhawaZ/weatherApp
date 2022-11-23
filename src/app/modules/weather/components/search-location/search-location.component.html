@@ -14,7 +14,7 @@
   </div>-->
   <div class="col-md-6 col-12 col-lg-6 m-lg-auto m-md-auto">
     <input ngx-google-places-autocomplete class="form-control"
-           #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)"
+           #placesRef="ngx-places" (onAddressChange)="getWeatherData($event)"
            placeholder="Where are you ?" adressType="city"/>
   </div>
 </div>

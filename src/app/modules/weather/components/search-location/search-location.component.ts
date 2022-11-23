@@ -28,7 +28,7 @@ export class SearchLocationComponent implements OnInit {
     this.weatherService.findCurrentWeather(this.lat, this.lng);
   }
 
-  public handleAddressChange(address: Address) {
+  public getWeatherData(address: Address) {
     this.weatherService.findCurrentWeather(address.geometry.location.lat(), address.geometry.location.lng());
   }
 

@@ -11,8 +11,7 @@ import {WeatherModule} from "./modules/weather/weather.module";
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, FooterComponent, routeParams
-  ],
+    AppComponent, HeaderComponent, FooterComponent, routeParams ],
   imports: [
     BrowserModule,
     AppRoutingModule,
