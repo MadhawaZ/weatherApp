@@ -1,18 +1,34 @@
 # WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This is an Angular application which will provide you weather data based on the location you provide. This will show you basic description of the current weather situation, temprature information and wind data. 
 
-## Development server
+## Get started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Clone the repo. 
 
-## Code scaffolding
+git clone https://github.com/MadhawaZ/weatherApp.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd weatherApp
 
-## Build
+## Install npm packages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
+
+## Run project
+
+ng serve
+
+You can run app in your favorite web browser on this address http://localhost:4200/
+
+## Important
+
+Please go to following link using your web browser 
+
+https://cors-anywhere.herokuapp.com/
+
+Then request permission.
+
+This will allow you to use application in your device. 
 
 ## Running unit tests
 
@@ -21,7 +37,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
