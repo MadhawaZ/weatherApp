@@ -1,5 +1,5 @@
 import {WeatherService} from "./weather.service";
-import {TestBed, tick, waitForAsync} from "@angular/core/testing";
+import {TestBed} from "@angular/core/testing";
 import {HttpClientTestingModule, HttpTestingController} from '@angular/common/http/testing';
 import {Weather} from "../models/weather";
 import {HttpClient} from "@angular/common/http";
